@@ -1,0 +1,82 @@
+ @font-face {
+    font-family: circularblack;
+    src: url(CircularStd-Black.otf);
+}
+@font-face {
+    font-family: circularmedium;
+    src: url(CircularStd-Medium.otf);
+}
+
+body{
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%
+}
+
+hr{
+  margin-top: -0.5%;
+  margin-left: -3.25%;
+  width:107.5%;
+  color:#EBEBEB;
+}
+.back {
+  column-count: 5;
+  line-height: 16pt;
+  padding-top: 2.5%;
+  font-size: 13pt;
+  font-family: "Times New Roman";
+  color: #EBEBEB;
+  position: relative;
+}
+#container{
+  position: relative;
+}
+#logo{
+  float:left;
+  height: 25px;
+  margin-top: -8px;
+}
+#menu{
+  float:right;
+  font-family: circularblack;
+  font-size: 11pt;
+}
+#menu a{
+  text-decoration: none;
+  color: black;
+  padding-left: 25px;
+}
+#nav{
+  height: 75px;
+  background-color: white;
+}
+#center{
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  left: 37.5%;
+}
+#title{
+  font-family: circularblack;
+  font-size: 40pt;
+  color: black;
+  margin-bottom: 5%;
+}
+#subtitle{
+  font-family: circularmedium;
+  font-size: 16pt;
+  color: black;
+}
+#chromeButton{
+  font-family: circularmedium;
+  font-size: 11pt;
+  color: white;
+  margin-top: 7.5%;
+  margin-left: 25%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  width: 50%;
+  border-radius: 5px;
+  background-color: #E42027;
+}
